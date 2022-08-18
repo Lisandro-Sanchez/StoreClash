@@ -1,0 +1,32 @@
+#semi-final {
+    margin-top: 90px;
+}
+
+#semi-final .contenedor {
+    height: 500px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#semi-final img {
+    width: 300px;
+    height: 300px;
+    padding-top: 20px;
+}
+
+#semi-final h3 {
+    color: rgb(79, 219, 40);
+}
+
+
+@media (min-width:768px) {
+    
+    #semi-final {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #semi-final .contenedor {
+        width: 350px;
+    }
+}

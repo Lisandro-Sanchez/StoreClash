@@ -1,0 +1,28 @@
+#informacion {
+    margin-top: 50px;
+}
+
+#informacion .contenedor {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contenedor h3 {
+    padding: 7px;
+}
+
+.contenedor .up {
+    color: rgb(79, 219, 40);}
+
+
+@media (min-width:768px) {
+    #informacion {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #informacion .contenedor {
+        width: 200px;
+    }
+
+}

@@ -1,0 +1,46 @@
+#servicios {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#servicios .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#servicios h3 {
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.servicios {
+    margin: 20px;
+}
+
+.servicios img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    
+}
+
+
+@media (min-width:480px) {
+    .servicios{
+        width: 40%;
+    }
+}
+
+@media (min-width:1024px) {
+    .servicios{
+        width: auto;
+        height: 300px;
+        padding-top: 30px;
+    }
+    #servicios .contenedor {
+        width: 1030px;
+    }
+}

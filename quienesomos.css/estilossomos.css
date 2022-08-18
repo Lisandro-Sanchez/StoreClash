@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+@import url(menusomos.css);
+@import url(bannersomos.css);
+@import url(informacion.css);
+@import url(semi-final.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background:#333;
+    color: #fff;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+h1 {
+    float: left;
+}
+
+header .green{
+    color: rgba(97, 239, 57, 0.852);
+}
+
+header .contenedor {
+    display: table;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#bienvenidos {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#bienvenidos h2 {
+    margin-bottom: 25px;
+}
+
+footer .contenedor {
+    text-align: center;
+    padding-bottom: 25px;
+    height: 400px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+
+footer .green{
+    color: rgb(79, 219, 40);
+}
+
+footer h2 {
+    padding-top: 80px;
+    font-size: 40px;
+    color: #fff;
+}
+
+footer .copy {
+    font-size: 20px;
+    cursor: default;
+    padding-top: 30px;
+    color: #fff;
+
+}
+
+footer .by {
+    color: #fff;
+}
+
+footer .redes {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+@media (min-width: 1024px) {
+    .contenedor {
+        width: 1000px;
+    }
+}
